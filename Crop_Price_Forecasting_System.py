@@ -51,7 +51,7 @@ def Dataset():
     Cotton_Agree = st.sidebar.checkbox("Cotton")
     if Wheat_Agree == True:
         st.header("Dataset of Wheat")
-        df = pd.read_csv("Datasets/Wheat.csv")
+        df = pd.read_csv("Wheat.csv")
         st.write(df)
         wpi_agree = st.checkbox("WPI over the Total Months")
         if wpi_agree == True:
@@ -61,7 +61,7 @@ def Dataset():
         return df
     elif Ragi_Agree == True:
         st.header("Dataset of Ragi")
-        df = pd.read_csv("Datasets/Ragi.csv")
+        df = pd.read_csv("Ragi.csv")
         st.write(df)
         wpi_agree = st.checkbox("WPI over the Total Months")
         if wpi_agree == True:
@@ -71,7 +71,7 @@ def Dataset():
         return df
     elif Cotton_Agree == True:
         st.header("Dataset of Cotton")
-        df = pd.read_csv("Datasets/Cotton.csv")
+        df = pd.read_csv("Cotton.csv")
         st.write(df)
         wpi_agree = st.checkbox("WPI over the Total Months")
         if wpi_agree == True:
@@ -81,7 +81,7 @@ def Dataset():
         return df
     elif Copra_Agree == True:
         st.header("Dataset of Copra")
-        df = pd.read_csv("Datasets/Copra.csv")
+        df = pd.read_csv("Copra.csv")
         st.write(df)
         wpi_agree = st.checkbox("WPI over the Total Months")
         if wpi_agree == True:
